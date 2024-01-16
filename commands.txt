@@ -3,8 +3,10 @@ dvc init
 dvc add data/data.csv
 
 #Explanation  : Similar to Git Hub
+
 dvc init creates dvc folder and dvcignore file 
 dvc folder has gitignore config and temp folder these gets staged automatically 
-
 dvc add data/data.csv this command creates .gitignore and data.csv.dvc gets formed
+As you make changes to the data and run  add data/data.csv  the versions gets stored in cache and md5 hash gets changed
+
 
