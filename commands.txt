@@ -1,0 +1,10 @@
+# Commands
+dvc init
+dvc add data/data.csv
+
+#Explanation  : Similar to Git Hub
+dvc init creates dvc folder and dvcignore file 
+dvc folder has gitignore config and temp folder these gets staged automatically 
+
+dvc add data/data.csv this command creates .gitignore and data.csv.dvc gets formed
+
